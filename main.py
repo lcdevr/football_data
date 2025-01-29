@@ -1,3 +1,10 @@
+from utils import file_saving
+
+def get_leagues():
+    url =
+
+
+
 def scrape_results():
     # Scrape the results of the matches
     pass
@@ -12,6 +19,8 @@ def scrape_players():
 
 
 def main():
+    # If lookup files do not exist, create them.  Will take a few minutes to run.
+    
     # Defining what to scrape
     scrape_choice = input('What do you want to scrape? (1) - Comp Fixtures and Results, (2) - Matches, (3) - Player, (4) - Other: ')
     if scrape_choice == '1':
