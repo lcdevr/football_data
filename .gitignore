@@ -1,3 +1,11 @@
+# data folder for storing data files
+data/
+
+# test python files for PoC or testing purposes
+test1.py
+test2.py
+test3.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
